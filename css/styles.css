@@ -1,8 +1,121 @@
 /* color Palette */
 :root {
-    --color-orange:#FF5900;
-    --color-typography:#212121;
-    --color-gray:#333333;
-    --color-gray-light:#F4F4F4;
-    --color-white:#FFFFFF;
+  --color-orange: #ff5900;
+  --color-typography: #212121;
+  --color-gray: #333333;
+  --color-gray-light: #f4f4f4;
+  --color-white: #ffffff;
+  --font-size-caption: 1.4rem;
+  --font-size-button-title1: 1.8rem;
+  --font-size-button-title2: 1.6rem;
 }
+* ,*::after,*::before {
+    box-sizing: border-box;
+}
+
+/* Typography */
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  background-color: gray;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: var(--color-typography);
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2.8rem;
+}
+h2 {
+  font-size: 3.8rem;
+  margin-bottom: 6rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 6.8rem;
+  }
+  h2 {
+    font-size: 3.8rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+}
+
+/*icons */
+.icon {
+  width: 40px;
+  height: 63px;
+}
+
+/* Buttons */
+.btn {
+  font-weight: 500;
+  font-size:2rem;
+  color: var(--color-white);
+  border-radius: 100px;
+  padding: 2rem 4rem;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+}
+.btn-primary {
+  background-color: var(--color-orange);
+}
+.btn-primary:hover {
+  background: #ca4600;
+}
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+}
+.btn-secondary:hover {
+  background: none;
+  color: var(--color-orange);
+  border: 1px solid var(--color-orange);
+}
+
+.btn-accent {
+  color: var(--color-orange);
+  font-size: 1.8rem;
+  background: none;
+  border: 1px solid var(--color-orange);
+  font-size: var(--font-size-button-title2);
+  padding: 1.6rem 3.2rem;
+}
+.btn-accent:hover {
+  background: #ca4600;
+  color: var(--color-white);
+}
+.btn-block{
+    width: 100%;
+    display: inline-block;
+}
+
+@media screen and (min-width:1024px){
+  .btn{
+    font-size:var(--font-size-button-title1)
+  }
+  .btn-accent{
+    font-size: var(--font-size-button-title2);
+  }
+}
+
+/* NavBar */
