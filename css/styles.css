@@ -32,7 +32,7 @@ h3 {
   color: var(--color-typography);
 }
 h1 {
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   margin-bottom: 2.8rem;
 }
 h2 {
@@ -73,7 +73,7 @@ h3 {
 /* Buttons */
 .btn {
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1rem;
   color: var(--color-white);
   border-radius: 100px;
   padding: 2rem 4rem;
@@ -114,7 +114,7 @@ h3 {
   color: var(--color-white);
 }
 .btn-block {
-  width: 100%;  
+  width: 100%;
   display: inline-block;
 }
 
@@ -122,9 +122,12 @@ h3 {
   /* containder */
   .container {
     margin: 0 20rem;
+    
+   
   }
   .btn {
     font-size: var(--font-size-button-title1);
+    font-size: 2rem;
   }
   .btn-accent {
     font-size: var(--font-size-button-title2);
@@ -225,7 +228,7 @@ h3 {
   font-weight: 500;
   display: none;
 }
-.second--search__icon{
+.second--search__icon {
   display: none;
 }
 
@@ -272,18 +275,17 @@ h3 {
     border-top: none;
     padding: 0 1.5rem;
   }
-  .nav__item a{
+  .nav__item a {
     font-weight: 500;
     display: flex;
     align-items: center;
   }
-  .second--search__icon{
+  .second--search__icon {
     width: 16px;
     height: 16px;
     display: block;
-    
   }
-  #nav__item--chevron{
+  #nav__item--chevron {
     width: 14px;
     height: 7px;
     padding-left: 4px;
@@ -295,4 +297,76 @@ h3 {
   .nav__list-secondary {
     display: none;
   }
+}
+
+/* Main */
+.main--container{
+     padding-top: 4rem;
+    margin: 0 5rem 0 5rem;
+  }
+  .main{
+    background-color: gray;
+  background-image: url('../images/fill-small.png');
+  position: absolute;
+  background-repeat: no-repeat;
+ 
+  
+  
+  
+  
+
+}
+.main h1 ,p{
+  color: var(--color-white);
+}
+.main-btn__container button{
+  margin-bottom: 2rem;
+}
+
+.internet-mark{
+  font-size: 6.8rem;
+  color: var(--color-white);
+}
+
+@media screen and (min-width: 1024px) {
+  
+.main{
+  background-image: url('../images/fill.png');
+  position: absolute;
+  width:100%;
+  height: 716px;
+  left: 0px;
+  color: var(--color-white);
+  background-repeat: no-repeat;
+  
+
+}
+.main h1{
+  color: var(--color-white);
+  margin-top: 17rem;
+  margin-bottom: 2.8rem;
+
+}
+.main p{
+  margin-bottom: 52px;
+}
+.main--container{
+  margin: 0 20rem 0;
+  width: 780px;
+ 
+}
+.main-btn__container{
+  display: flex;
+  gap: 3.2rem;
+}
+.main-btn__container button{
+  width: fit-content;
+  flex-wrap: nowrap;
+}
+
+.internet-mark{
+  font-size: 6.8rem;
+  color: var(--color-white);
+}
+
 }
