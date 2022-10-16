@@ -55,6 +55,10 @@ h3 {
     font-size: 1.8rem;
   }
 }
+/* containder */
+.container{
+    margin: ;
+}
 
 /*icons */
 .icon {
@@ -63,6 +67,9 @@ h3 {
 }
 .chevron{
     width: 20px;
+}
+.phone--icon{
+    padding-right: 10px;
 }
 
 /* Buttons */
@@ -76,6 +83,10 @@ h3 {
   cursor: pointer;
   white-space: nowrap;
   text-align: center;
+  display: flex;
+  
+  
+  
 }
 .btn-primary {
   background-color: var(--color-orange);
@@ -101,6 +112,7 @@ h3 {
   border: 1px solid var(--color-orange);
   font-size: var(--font-size-button-title2);
   padding: 1.6rem 3.2rem;
+  margin: ;
 }
 .btn-accent:hover {
   background: #ca4600;
@@ -170,6 +182,7 @@ h3 {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 1rem;
+   
 }
 .nav__list{
     width:100%
@@ -200,13 +213,16 @@ h3 {
  display: flex;
  flex-direction: column;
  align-items: center;
-     line-height: 1.5;
-margin: 0;
+line-height: 1.5;
+  margin: 0;
+  
+  
     
 }
 .nav__list-secondary li{
     padding: 20px;
     transition: color 0.3s;
+    
     
 }
 .nav__list-secondary li:hover{
@@ -215,4 +231,58 @@ margin: 0;
 
 .nav__toggler{
     opacity: 0.5;
+}
+.nav.collapsible--expanded .nav__toggler{
+    opacity: 1;
+}
+.phone--number{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    display: none;
+}
+
+.sell{
+    display: none;
+}
+.phone--btn{
+    display: none;
+}
+
+@media screen and (min-width:1150px){
+    .sell,.phone--number{
+        display: block;
+    }
+    .phone--btn{
+        display: flex;
+    }
+    
+    .nav__toggler{
+        display: none;
+    }
+    .containder{
+        margin: 0 20rem;
+    }
+    .nav__list {
+        width: auto;
+        display: flex;
+        border-top: none;
+        max-height: 100%;
+        opacity: 1;
+        white-space:nowrap
+    }
+    .nav__list-secondary{
+         max-height: 100%;
+        opacity: 1
+    }
+    .nav__item{
+        border-top: none;
+    }
+    
+    .search--icon{
+        display: none;
+    }
+    .nav__list-secondary{
+        display: none;
+    }
 }
