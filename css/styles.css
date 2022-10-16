@@ -116,7 +116,6 @@ h3 {
   border: 1px solid var(--color-orange);
   font-size: var(--font-size-button-title2);
   padding: 1.6rem 3.2rem;
-  
 }
 .btn-accent:hover {
   background: #ca4600;
@@ -374,17 +373,14 @@ p {
   height: 49rem;
   padding: 4rem 3.2rem;
 }
-.card__image1{
+.card__image1 {
   background-image: url("../images/Rectangle\ 6.png");
-  
 }
-.card__image2{
-    background-image: url("../images/card__image2.png");
-
+.card__image2 {
+  background-image: url("../images/card__image2.png");
 }
-.card__image3{
-      background-image: url("../images/card__image3.png");
-
+.card__image3 {
+  background-image: url("../images/card__image3.png");
 }
 .card--primary h3 {
   color: var(--color-white);
@@ -412,22 +408,35 @@ p {
   color: #ffffff;
   padding-block: 2.8rem 6.6rem;
 }
-.card--primary .btn{
-width: 100%;
-
+.card--primary .btn {
+  width: 100%;
 }
 
 /* Grids */
-.grid{
+.grid {
   display: grid;
 }
-@media screen and (min-width:768px) {
-  .grid--1x2{
-    grid-template-columns: repeat(2,1fr);
+
+
+@media screen and (min-width: 768px) {
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (min-width:1024px) {
-  .grid--1x3{
-    grid-template-columns: repeat(3,1fr);
+@media screen and (min-width: 1024px) {
+  .grid--1x3 {
+    grid-template-columns: repeat(3, 1fr);
   }
+}
+
+/* Work with us  */
+
+.work-with-us__padge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 36rem;
+  height: 16rem;
 }
