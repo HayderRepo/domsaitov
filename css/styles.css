@@ -431,12 +431,16 @@ p {
 
 /* Work with us  */
 
+.padge__header{
+   margin-inline: 20rem;
+}
 .work-with-us__padge {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 14px 44px;
   gap: 16px;
   width: 36rem;
   height: 16rem;
+  border: 1px red solid;
 }
