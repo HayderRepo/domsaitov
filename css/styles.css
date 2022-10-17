@@ -613,3 +613,34 @@ color: var(--color-orange);
 .increase-sales h1{
   color: var(--color-white);
 }
+/* about-comapny__title */
+.about-company{
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+      flex-direction: column;
+
+  
+  gap: 15rem;
+}
+
+.about-comapny__title{
+  padding-top: 4.8rem;
+  padding-bottom: 6rem;
+  
+
+}
+.about-company__description{
+  padding-bottom: 5.4rem;
+}
+.about-company__badges{
+  max-width: 450px;
+  max-height: 350px;
+}
+
+@media screen and (min-width: 768px){
+  .about-company{
+    flex-direction: row;
+  }
+}
