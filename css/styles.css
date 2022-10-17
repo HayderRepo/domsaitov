@@ -599,3 +599,17 @@ color: var(--color-orange);
 #orang{
   color: var(--color-orange);
 }
+/* increase-sales */
+
+.increase-sales{
+  background-image: url('../images/increase-sales__fill.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--color-white);
+  height: 50rem;
+}
+.increase-sales h1{
+  color: var(--color-white);
+}
