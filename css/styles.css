@@ -322,8 +322,8 @@ strong {
   position: absolute;
   background-repeat: no-repeat;
 }
-.main h1,.main
-p {
+.main h1,
+.main p {
   color: var(--color-white);
 }
 .main-btn__container button {
@@ -468,7 +468,6 @@ p {
   flex-direction: column;
   align-items: flex-start; */
   text-align: left;
-  
 }
 .seal--price span {
   font-family: "Montserrat";
@@ -481,7 +480,7 @@ p {
   color: #212121;
   opacity: 0.5;
 }
-#Price__descriptin-stron{
+#Price__descriptin-stron {
   text-decoration-line: none;
   opacity: 1;
   font-size: 14px;
@@ -529,7 +528,6 @@ p {
   .grid--1x2 {
     grid-template-columns: repeat(2, 1fr);
   }
-  
 }
 @media screen and (min-width: 1024px) {
   .grid--1x3 {
@@ -553,56 +551,54 @@ p {
   border: 1px red solid;
 }
 /* our--portfolio */
-.our--portfolio{
+.our--portfolio {
   padding: 4rem 7.2rem 5rem 4rem;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
-.our--portfolio  h3{
-  margin-bottom: 20px ;
+.our--portfolio h3 {
+  margin-bottom: 20px;
 }
-.our--portfolio__logo{
+.our--portfolio__logo {
   grid-column-end: end;
 }
-.our--portfolio__Objectives{
+.our--portfolio__Objectives {
   color: #333333;
   font-weight: 700;
-font-size: 14px;
-opacity: 0.5;
-padding-top: 30px;
-padding-bottom: 12px;
+  font-size: 14px;
+  opacity: 0.5;
+  padding-top: 30px;
+  padding-bottom: 12px;
 }
 
-.Objective__description{
+.Objective__description {
   font-size: 14px;
   margin-bottom: 0;
   padding-bottom: 0;
-
 }
-.gap{
+.gap {
   gap: 60px;
 }
-.portfolio__objectives{
-
+.portfolio__objectives {
   border-right: 1px solid rgba(51, 51, 51, 0.2);
 }
-#result__percent{
+#result__percent {
   font-weight: 500;
-font-size: 3.8rem;
-line-height: 4.2rem;
-color: var(--color-orange);
+  font-size: 3.8rem;
+  line-height: 4.2rem;
+  color: var(--color-orange);
 }
-.result__flex{
+.result__flex {
   display: flex;
   align-items: center;
   gap: 15px;
 }
-#orang{
+#orang {
   color: var(--color-orange);
 }
 /* increase-sales */
 
-.increase-sales{
-  background-image: url('../images/increase-sales__fill.png');
+.increase-sales {
+  background-image: url("../images/increase-sales__fill.png");
   display: flex;
   align-items: center;
   justify-content: center;
@@ -610,37 +606,61 @@ color: var(--color-orange);
   color: var(--color-white);
   height: 50rem;
 }
-.increase-sales h1{
+.increase-sales h1 {
   color: var(--color-white);
 }
 /* about-comapny__title */
-.about-company{
+.about-company {
   max-width: 1200px;
   display: flex;
   align-items: center;
   justify-content: center;
-      flex-direction: column;
+  flex-direction: column;
 
-  
   gap: 15rem;
 }
 
-.about-comapny__title{
+.about-comapny__title {
   padding-top: 4.8rem;
   padding-bottom: 6rem;
-  
-
 }
-.about-company__description{
+.about-company__description {
   padding-bottom: 5.4rem;
 }
-.about-company__badges{
+.about-company__badges {
   max-width: 450px;
   max-height: 350px;
 }
 
-@media screen and (min-width: 768px){
-  .about-company{
+@media screen and (min-width: 768px) {
+  .about-company {
+    flex-direction: row;
+  }
+}
+/* our company */
+.team__image {
+  max-width: 360px;
+  max-height: 360px;
+}
+.our-team__flex {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  flex-direction: column;
+}
+.team__position {
+  font-weight: 500;
+  font-size: 14px;
+  color: #212121;
+  opacity: 0.5;
+}
+.team__name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #333333;
+}
+@media screen and (min-width: 768px) {
+  .our-team__flex {
     flex-direction: row;
   }
 }
