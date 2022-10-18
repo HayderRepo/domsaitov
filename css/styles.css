@@ -665,12 +665,7 @@ strong {
   max-width: 360px;
   max-height: 360px;
 }
-.our-team__flex {
-  display: flex;
-  gap: 60px;
-  align-items: center;
-  flex-direction: column;
-}
+
 .team__position {
   font-weight: 500;
   font-size: 14px;
