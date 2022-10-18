@@ -549,6 +549,14 @@ strong {
   .grid--1x2 {
     grid-template-columns: repeat(2, 1fr);
   }
+  .grid--2x2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4,1fr);
+    row-gap: 40px;
+    column-gap:60px ;
+    
+    
+  }
 }
 @media screen and (min-width: 1024px) {
   .grid--1x3 {
@@ -556,6 +564,13 @@ strong {
     row-gap: 40px;
     column-gap:60px ;
    
+  }
+  .gird--2x4{
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2,1fr);
+    row-gap: 30px;
+    column-gap:30px ;
+
   }
 }
 
@@ -996,4 +1011,21 @@ height: 420px;
   font-weight: 700;
 font-size: 38px;
 color: var(--color-orange);
+}
+/* our-clients section */
+
+@media screen and (max-width: 768px) {
+  .our-clients__icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+}
+
+.our-clients__icons img{
+  width: 278px;
+  height: 68px;
 }
