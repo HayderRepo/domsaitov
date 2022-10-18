@@ -875,7 +875,7 @@ ul.tab-header {
   height: 258px;
   padding: 22px 70px 0 0;
 }
-/* foram */
+/* form */
 .main-form {
   /* !don forget to romove this lines */
 
@@ -911,4 +911,35 @@ height: 357px;
 }
 .checkbox:first-child {
   margin-right: 7px;
+}
+
+/* form section */
+.form-section{
+  background-image: url('../images/form__background.png');
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  
+
+}
+.form__title ,.form__text{
+  color: var(--color-white);
+  width: 908px;
+  text-align: center;
+}
+.form__text{
+  font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+width: 906px;
+}
+.form-text__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
