@@ -943,3 +943,35 @@ width: 906px;
   align-items: center;
   justify-content: center;
 }
+
+/* reviews-section */
+.reviews__titile{
+  margin-left:86px ;
+}
+.reviews__container{
+  display: flex;
+  gap: 35px;
+}
+.reviews__photos-container{
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+height: 420px;
+  
+  
+  
+}
+.reviews__photo{
+  max-width: 360px;
+  max-height: 420px;
+  flex: 1;
+}
+.arrow-left{
+ 
+ 
+ 
+}
+.arrow-right{
+  
+}
