@@ -872,7 +872,11 @@ ul.tab-header li{
   }
   .tab-content .tab-inner p {
     text-align: left;
-    line-height: 0;
+  }
+  .tap-content__primary .tab-inner p {
+    text-align: center;
+    padding: 40px 275px 50px 275px;
+
   }
   .tab-content__secondary .tab-inner div {
     padding: 0;
