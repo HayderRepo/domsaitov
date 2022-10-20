@@ -48,6 +48,22 @@ strong {
   line-height: 20px;
   color: #212121;
 }
+
+.padding-b{
+  padding-bottom: 120px;
+}
+/* container */
+.container {
+  margin: 0 20px;
+}
+.center-container{
+  margin: 0px  auto;
+}
+
+@media screen and (min-width:768px){
+  .container {
+  margin: 0 50px;
+}}
 @media screen and (min-width: 1024px) {
   body {
     font-size: 1.6rem;
@@ -578,7 +594,7 @@ display: block;
     column-gap: 60px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .grid--1x3 {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 40px;
@@ -683,20 +699,24 @@ display: block;
 .about-company__description {
   padding-bottom: 5.4rem;
 }
+
 .about-company__badges {
-  max-width: 450px;
+  max-width: 250px;
   max-height: 350px;
 }
-
 @media screen and (min-width: 768px) {
+  .about-company__badges {
+    max-width: 450px;
+    max-height: 350px;
+  }
   .about-company {
     flex-direction: row;
   }
 }
 /* our company */
 .team__image {
-  max-width: 360px;
-  max-height: 360px;
+  max-width: 260px;
+  max-height: 260px;
 }
 
 .team__position {
@@ -710,10 +730,14 @@ display: block;
   font-size: 16px;
   color: #333333;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .our-team__flex {
     flex-direction: row;
   }
+  .team__image {
+  max-width: 360px;
+  max-height: 360px;
+}
 }
 
 /* nav-tabs */
@@ -841,6 +865,12 @@ ul.tab-header__secondary li:hover {
 }
 
 @media screen and (min-width: 769px) {
+  ul.tab-header__primary{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 1fr;
+  }
+  
   .tab-content {
     background: #fff;
     border: 1px solid #ccc;
@@ -889,7 +919,6 @@ ul.tab-header__secondary li {
 }
 .tap-content__primary .tab-inner p {
   text-align: center;
-  padding: 40px 275px 50px 275px;
 }
 .tab-content__secondary .tab-inner div {
   padding: 0;
@@ -930,6 +959,9 @@ ul.tab-header__secondary li {
   .nav-tabs__photo{
   width: 300px;
   
+}
+.tap-content__primary .tab-inner p {
+  padding: 10px;
 }
 }
 @media screen and (min-width:769px) {
