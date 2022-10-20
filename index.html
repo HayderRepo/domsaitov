@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,309 +15,469 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-      <!-- cards-secondary section -->
-    <section class=" container">
-        <h2   >Лучшие решения для увеличения продаж</h2>
-     
+    <nav class="nav container collapsible">
+      <img
+        class="icon nav__toggler collapsible__chevron"
+        src="images/bars-solid.svg"
+        alt="" />
+      <a href="/"><img class="logo" src="images/лого.svg" alt="logo" /></a>
+      <img
+        class="icon search--icon"
+        src="images/search.svg"
+        alt="search icon" />
+      <p class="sell">Увеличиваем продажи в Вашем бизнесе!</p>
+      <a href="tel:+74951182462" class="phone--number">+7 (495) 118-24-62 </a>
+      <button class="btn-accent btn phone--btn">
+        <img class="phone--icon" src="images/phone.svg" alt="" /> Заказать
+        звонок
+      </button>
 
-    <!-- !card-1 -->
-   <div  class="
-   grid grid-2x3">
-  
-    <div class="card--secondary">
-      <header class="card--secondary__header">
-        <img
-          class="card--secondary__img"
-          src="images/card__header-photo1.svg"
-          alt="" />
-      </header>
-      <div class="card--secondary__body">
-        <h3 class="card--secondary__title">
-          Продвижение в Яндекс и Google (SEO)
-        </h3>
-        <div class="card--secondary__text">
-          Увеличим Ваши продажи, количество звонков и заявок за счет оптимизации
-          сайта. Поднимем в ТОП и увеличим трафик.
-        </div>
-        <div class="card__info">
-          <img src="images/ryp.svg" alt="" class="info__icon" />
-          <div class="caption">
-            от <span class="info__price"> 23 360 руб.</span>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item">
+          <a href="#" class="collapsible__heading"
+            >Увеличение продаж
+            <img id="nav__item--chevron" src="images/chevron.svg" alt=""
+          /></a>
+        </li>
+
+        <li class="nav__item"><a href="#">Создание сайтов</a></li>
+        <li class="nav__item"><a href="#">Поддержка </a></li>
+        <li class="nav__item"><a href="#">Битрикс 24 </a></li>
+        <li class="nav__item"><a href="#">О компании </a></li>
+        <li class="nav__item"><a href="#">Отзывы </a></li>
+        <li class="nav__item"><a href="#">кейсы </a></li>
+        <li class="nav__item"><a href="#">контакты </a></li>
+        <li class="nav__item">
+          <a href="#">
+            <img
+              class="icon second--search__icon"
+              src="images/search.svg"
+              alt="search icon" />
+          </a>
+        </li>
+      </ul>
+      <ul class="list nav__list-secondary collapsible__content">
+        <li>Киевское ш. 22-й км МКАД, 6c1</li>
+        <li>
+          <a href="tel:+74951182462" class="">+7 (495) 118-24-62 </a>
+        </li>
+        <li>
+          <a href="mailto:msk@domsaitov.ru" class="">msk@domsaitov.ru </a>
+        </li>
+      </ul>
+    </nav>
+    <!--  main section-->
+    <main class="main-wrapper">
+      <div class="main">
+        <div class="main--container">
+          <div class="main-text__container">
+            <h1 class="main-title">
+              Комплексный <span class="internet-mark">интернет-маркетинг</span>
+            </h1>
+            <p>
+              Мы помогаем бизнесу находить клиентов быстрее, интегрируя
+              маркетинговые, обучающие и технологические продукты
+            </p>
+          </div>
+          <div class="main-btn__container">
+            <button class="btn-primary btn">Заказать увеличение продаж</button>
+            <button class="btn-secondary btn">Заказать экспертный аудит</button>
           </div>
         </div>
-        <div class="seal">
-          <img src="images/seal-icon.svg" alt="" />
-          <div class="seal--price">
-            <span>58 750 руб.</span>
-            Суперцена только в мае!
-          </div>
-        </div>
-        <a href="#" class="link-arrow"> Подробнее </a>
       </div>
-    </div>
-    <!-- !card-2 -->
-    <div class="card--secondary">
-      <header class="card--secondary__header">
-        <img
-          class="card--secondary__img"
-          src="images/card__header-photo2.svg"
-          alt="" />
-      </header>
-      <div class="card--secondary__body">
-        <h3 class="card--secondary__title">Контекстная реклама</h3>
-        <div class="card--secondary__text">
-          Повысим Ваши продажи, увеличим охват аудитории, количество звонков и
-          заявок за счет привлечения только целевого трафика.
-        </div>
-        <div class="card__info">
-          <img src="images/ryp.svg" alt="" class="info__icon" />
+    </main>
+
+    <!-- digital cards section -->
+    <section class="digital-cards container">
+      <h2>
+        <span class="digital-cards-title__span">Антикризисные</span>
+        DIGITAL-пакеты
+      </h2>
+
+      <div class="digital-cards__container grid grid-2x3 grid-digital">
+        <div class="card card--primary card--primary__image1">
+          <h3>СТАБИЛЬНАЯ ЛИДОГЕНЕРАЦИЯ В КРИЗИС</h3>
+          <p>SEO-продвижение + Контекстная реклама</p>
           <div class="caption">
-            от <span class="info__price">30 000 руб.</span>
+            Ищете сплит каналов для стабильного лидгена? Нет ничего надежнее
+            классики!
           </div>
+          <footer class="card--primary__footer">
+            Специальная скидка до <stron>40%</stron> на каждую услугу в пакете
+          </footer>
+          <button class="btn-accent btn">Приобрести пакет</button>
         </div>
-        <div class="seal">
-          <img src="images/gift-icon.svg" alt="" />
-          <div class="seal--gift">
-            Месяц CallTouch <strong >В ПОДАРОК</strong>
-            при контекстной рекламе от 100 000 руб.
-          </div>
-        </div>
-        <a href="#" class="link-arrow"> Подробнее </a>
-      </div>
-    </div>
-    <!--! card-3 -->
-    <div class="card--secondary">
-      <header class="card--secondary__header">
-        <img
-          class="card--secondary__img"
-          src="images/card__header-photo3.svg"
-          alt="" />
-      </header>
-      <div class="card--secondary__body">
-        <h3 class="card--secondary__title">Продвижение в социальных сетях</h3>
-        <div class="card--secondary__text">
-          Увеличим Ваши продажи за счет интерактивного взаимодействия с
-          клиентами в социальных сетях.
-        </div>
-        <div class="card__info">
-          <img src="images/ryp.svg" alt="" class="info__icon" />
+        <div class="card card--primary card--primary__image2">
+          <h3>СТАБИЛЬНАЯ ЛИДОГЕНЕРАЦИЯ В КРИЗИС</h3>
+          <p>SEO-продвижение + Контекстная реклама</p>
           <div class="caption">
-            от <span class="info__price">50 360 руб.</span>
+            Ищете сплит каналов для стабильного лидгена? Нет ничего надежнее
+            классики!
           </div>
+          <footer class="card--primary__footer">
+            Специальная скидка до 40% на каждую услугу в пакете
+          </footer>
+          <button class="btn-accent btn">Приобрести пакет</button>
         </div>
-        <div class="seal">
-          <img src="images/seal-icon.svg" alt="" />
-          <div class="seal--price">
-            <span>168 000 руб.</span>
-            Суперцена только в мае!
-          </div>
-        </div>
-        <a href="#" class="link-arrow"> Подробнее </a>
-      </div>
-    </div>
-  
-    <!--! card-4 -->
-    <div class="card--secondary">
-      <header class="card--secondary__header">
-        <img
-          class="card--secondary__img"
-          src="images/card__header-photo4.svg"
-          alt="" />
-      </header>
-      <div class="card--secondary__body">
-        <h3 class="card--secondary__title">
-          SERM — управление репутацией в интернете
-        </h3>
-        <div class="card--secondary__text">
-          Удалим негатив, разместим положительные отзывы, увеличим продажи и
-          повысим доверие клиентов.
-        </div>
-        <div class="card__info">
-          <img src="images/ryp.svg" alt="" class="info__icon" />
+        <div class="card card--primary card--primary__image3">
+          <h3>СТАБИЛЬНАЯ ЛИДОГЕНЕРАЦИЯ В КРИЗИС</h3>
+          <p>SEO-продвижение + Контекстная реклама</p>
           <div class="caption">
-            от <span class="info__price">34 900 руб.</span>
+            Ищете сплит каналов для стабильного лидгена? Нет ничего надежнее
+            классики!
           </div>
+          <footer class="card--primary__footer">
+            Специальная скидка до 40% на каждую услугу в пакете
+          </footer>
+          <button class="btn-accent btn">Приобрести пакет</button>
         </div>
-        <div class="seal">
-          <img src="images/seal-icon.svg" alt="" />
-          <div class="seal--price">
-            <span>58 750 руб.</span>
-            Суперцена только в мае!
-          </div>
-        </div>
-        <a href="#" class="link-arrow"> Подробнее </a>
       </div>
-    </div>
-    <!--! card-5 -->
-    <div class="card--secondary">
-      <header class="card--secondary__header">
-        <img
-          class="card--secondary__img"
-          src="images/card__header-photo5.svg"
-          alt="" />
-      </header>
-      <div class="card--secondary__body">
-        <h3 class="card--secondary__title">
-          улучшение продающих качеств сайта
-        </h3>
-        <div class="card--secondary__text">
-          Сделаем Ваш сайт удобным для пользования. Увеличим продажи, количество
-          заявок и звонков.
+    </section>
+
+    <!-- work with us section -->
+    <section class="container">
+      <h2>Преимущества работы с нами</h2>
+      <div class="grid grid--1x3 grid--1x2">
+        <div class="work-with-us__padge">
+          <img src="images/Group-1.svg" alt="" />
+          <p style="color: black">
+            Увеличиваем продажи, звонки и заявки с Вашего сайта
+          </p>
         </div>
-        <div class="card__info">
-          <img src="images/ryp.svg" alt="" class="info__icon" />
-          <div class="caption">
-            от <span class="info__price">210 000 руб.</span>
-          </div>
+        <div class="work-with-us__padge">
+          <img src="images/Group-2.svg" alt="" />
+          <p style="color: black">
+            Увеличиваем продажи, звонки и заявки с Вашего сайта
+          </p>
         </div>
-        <div class="seal">
-          <img src="images/seal-icon.svg" alt="" />
-          <div class="seal--price">
-            <span>224 000 руб.</span>
-            БЕСПЛАТНО при оплате SEO в мае
-            <div class=""></div>
-          </div>
+        <div class="work-with-us__padge">
+          <img src="images/Group-3.svg" alt="" />
+          <p style="color: black">
+            Увеличиваем продажи, звонки и заявки с Вашего сайта
+          </p>
         </div>
-        <a href="#" class="link-arrow"> Подробнее </a>
+        <div class="work-with-us__padge">
+          <img src="images/Group-4.svg" alt="" />
+          <p style="color: black">
+            Увеличиваем продажи, звонки и заявки с Вашего сайта
+          </p>
+        </div>
+        <div class="work-with-us__padge">
+          <img src="images/Group-5.svg" alt="" />
+          <p style="color: black">
+            Увеличиваем продажи, звонки и заявки с Вашего сайта
+          </p>
+        </div>
+        <div class="work-with-us__padge">
+          <img src="images/Group-6.svg" alt="" />
+          <p style="color: black">
+            Увеличиваем продажи, звонки и заявки с Вашего сайта
+          </p>
+        </div>
       </div>
-    </div>
-    <!--! card-6 -->
-    <div class="card--secondary">
-      <header class="card--secondary__header">
-        <img
-          class="card--secondary__img"
-          src="images/card__header-photo6.svg"
-          alt="" />
-      </header>
-      <div class="card--secondary__body">
-        <h3 class="card--secondary__title">Создание сайта</h3>
-        <div class="card--secondary__text">
-         Современный привлекательный сайт способствует выводу сайта в
-ТОП и росту продаж.
-        </div>
-        <div class="card__info">
-          <img src="images/ryp.svg" alt="" class="info__icon" />
-          <div class="caption">
-            от <span class="info__price">315 000 руб.</span>
+    </section>
+    <!-- cards-secondary section -->
+    <section class="card-secondary__section">
+      <div class="container">
+        <h2>Лучшие решения для увеличения продаж</h2>
+
+        <!-- !card-1 -->
+        <div class="grid grid-2x3">
+          <div class="card--secondary">
+            <header class="card--secondary__header">
+              <img
+                class="card--secondary__img"
+                src="images/card__header-photo1.svg"
+                alt="" />
+            </header>
+            <div class="card--secondary__body">
+              <h3 class="card--secondary__title">
+                Продвижение в Яндекс и Google (SEO)
+              </h3>
+              <div class="card--secondary__text">
+                Увеличим Ваши продажи, количество звонков и заявок за счет
+                оптимизации сайта. Поднимем в ТОП и увеличим трафик.
+              </div>
+              <div class="card__info">
+                <img src="images/ryp.svg" alt="" class="info__icon" />
+                <div class="caption">
+                  от <span class="info__price"> 23 360 руб.</span>
+                </div>
+              </div>
+              <div class="seal">
+                <img src="images/seal-icon.svg" alt="" />
+                <div class="seal--price">
+                  <span>58 750 руб.</span>
+                  Суперцена только в мае!
+                </div>
+              </div>
+              <a href="#" class="link-arrow"> Подробнее </a>
+            </div>
+          </div>
+          <!-- !card-2 -->
+          <div class="card--secondary">
+            <header class="card--secondary__header">
+              <img
+                class="card--secondary__img"
+                src="images/card__header-photo2.svg"
+                alt="" />
+            </header>
+            <div class="card--secondary__body">
+              <h3 class="card--secondary__title">Контекстная реклама</h3>
+              <div class="card--secondary__text">
+                Повысим Ваши продажи, увеличим охват аудитории, количество
+                звонков и заявок за счет привлечения только целевого трафика.
+              </div>
+              <div class="card__info">
+                <img src="images/ryp.svg" alt="" class="info__icon" />
+                <div class="caption">
+                  от <span class="info__price">30 000 руб.</span>
+                </div>
+              </div>
+              <div class="seal">
+                <img src="images/gift-icon.svg" alt="" />
+                <div class="seal--gift">
+                  Месяц CallTouch <strong>В ПОДАРОК</strong>
+                  при контекстной рекламе от 100 000 руб.
+                </div>
+              </div>
+              <a href="#" class="link-arrow"> Подробнее </a>
+            </div>
+          </div>
+          <!--! card-3 -->
+          <div class="card--secondary">
+            <header class="card--secondary__header">
+              <img
+                class="card--secondary__img"
+                src="images/card__header-photo3.svg"
+                alt="" />
+            </header>
+            <div class="card--secondary__body">
+              <h3 class="card--secondary__title">
+                Продвижение в социальных сетях
+              </h3>
+              <div class="card--secondary__text">
+                Увеличим Ваши продажи за счет интерактивного взаимодействия с
+                клиентами в социальных сетях.
+              </div>
+              <div class="card__info">
+                <img src="images/ryp.svg" alt="" class="info__icon" />
+                <div class="caption">
+                  от <span class="info__price">50 360 руб.</span>
+                </div>
+              </div>
+              <div class="seal">
+                <img src="images/seal-icon.svg" alt="" />
+                <div class="seal--price">
+                  <span>168 000 руб.</span>
+                  Суперцена только в мае!
+                </div>
+              </div>
+              <a href="#" class="link-arrow"> Подробнее </a>
+            </div>
+          </div>
+
+          <!--! card-4 -->
+          <div class="card--secondary">
+            <header class="card--secondary__header">
+              <img
+                class="card--secondary__img"
+                src="images/card__header-photo4.svg"
+                alt="" />
+            </header>
+            <div class="card--secondary__body">
+              <h3 class="card--secondary__title">
+                SERM — управление репутацией в интернете
+              </h3>
+              <div class="card--secondary__text">
+                Удалим негатив, разместим положительные отзывы, увеличим продажи
+                и повысим доверие клиентов.
+              </div>
+              <div class="card__info">
+                <img src="images/ryp.svg" alt="" class="info__icon" />
+                <div class="caption">
+                  от <span class="info__price">34 900 руб.</span>
+                </div>
+              </div>
+              <div class="seal">
+                <img src="images/seal-icon.svg" alt="" />
+                <div class="seal--price">
+                  <span>58 750 руб.</span>
+                  Суперцена только в мае!
+                </div>
+              </div>
+              <a href="#" class="link-arrow"> Подробнее </a>
+            </div>
+          </div>
+          <!--! card-5 -->
+          <div class="card--secondary">
+            <header class="card--secondary__header">
+              <img
+                class="card--secondary__img"
+                src="images/card__header-photo5.svg"
+                alt="" />
+            </header>
+            <div class="card--secondary__body">
+              <h3 class="card--secondary__title">
+                улучшение продающих качеств сайта
+              </h3>
+              <div class="card--secondary__text">
+                Сделаем Ваш сайт удобным для пользования. Увеличим продажи,
+                количество заявок и звонков.
+              </div>
+              <div class="card__info">
+                <img src="images/ryp.svg" alt="" class="info__icon" />
+                <div class="caption">
+                  от <span class="info__price">210 000 руб.</span>
+                </div>
+              </div>
+              <div class="seal">
+                <img src="images/seal-icon.svg" alt="" />
+                <div class="seal--price">
+                  <span>224 000 руб.</span>
+                  БЕСПЛАТНО при оплате SEO в мае
+                  <div class=""></div>
+                </div>
+              </div>
+              <a href="#" class="link-arrow"> Подробнее </a>
+            </div>
+          </div>
+          <!--! card-6 -->
+          <div class="card--secondary">
+            <header class="card--secondary__header">
+              <img
+                class="card--secondary__img"
+                src="images/card__header-photo6.svg"
+                alt="" />
+            </header>
+            <div class="card--secondary__body">
+              <h3 class="card--secondary__title">Создание сайта</h3>
+              <div class="card--secondary__text">
+                Современный привлекательный сайт способствует выводу сайта в ТОП
+                и росту продаж.
+              </div>
+              <div class="card__info">
+                <img src="images/ryp.svg" alt="" class="info__icon" />
+                <div class="caption">
+                  от <span class="info__price">315 000 руб.</span>
+                </div>
+              </div>
+              <div class="seal">
+                <img src="images/seal-icon.svg" alt="" />
+                <div class="seal--price">
+                  <span>409 500 руб.</span>
+                  Суперцена только в мае!
+                  <div class=""></div>
+                </div>
+              </div>
+              <a href="#" class="link-arrow"> Подробнее </a>
+            </div>
           </div>
         </div>
-        <div class="seal">
-          <img src="images/seal-icon.svg" alt="" />
-          <div class="seal--price">
-            <span>409 500 руб.</span>
-            Суперцена
-только в мае!
-            <div class=""></div>
-          </div>
-        </div>
-        <a href="#" class="link-arrow"> Подробнее </a>
       </div>
-    </div>
-    </div>
-        </section>
+    </section>
     <!-- portfolio section -->
     <section class="container">
       <h2>Наши кейсы и портфолио</h2>
-    <section class="our--portfolio">
-      <div class="grid grid--1x2">
-        <div>
-          <h3>Результаты продвижения «Оценочной компании №1»</h3>
-          <p>
-            «Оценочная компания №1» – это оценочная компания, в спектр
-            предоставляемых услуг которой входит полный набор услуг по оценке
-            движимого и недвижимого имущества.
-          </p>
-        </div>
-        <img
-          class="our--portfolio__logo"
-          src="images/our--portfolio-logo.svg"
-          alt="" />
-      </div>
-      <div class="grid grid--1x2 gap">
-        <div class="portfolio__objectives">
-          <p class="our--portfolio__Objectives">Цели:</p>
-          <p id="Objective__description">
-            Увеличение количества обращений с помощью комплексных решений
-            интернет-маркетинга. Для выполнения поставленных задач была выбрана
-            стратегия продвижения сайта по позициям.
-          </p>
-          <ul>
-            <li>Увеличение количества визитов из поисковых систем</li>
-            <li>Улучшение видимости ресурса поисковыми системами</li>
-            <li>Увеличение количества обращений через сайт</li>
-          </ul>
-        </div>
-        <div>
-          <p class="our--portfolio__Objectives">Результат:</p>
-          <div class="result__flex">
-            <span id="result__percent">85%</span>
+      <section class="our--portfolio">
+        <div class="grid grid--1x2">
+          <div>
+            <h3>Результаты продвижения «Оценочной компании №1»</h3>
             <p>
-              запросов обширного семантического ядра выведено в ТОП-10 поисковой
-              системы Яндекс
+              «Оценочная компания №1» – это оценочная компания, в спектр
+              предоставляемых услуг которой входит полный набор услуг по оценке
+              движимого и недвижимого имущества.
             </p>
           </div>
-          <div class="result__flex">
-            <p id="orang">в <span id="result__percent">12</span>
-              раз</p>
+          <img
+            class="our--portfolio__logo"
+            src="images/our--portfolio-logo.svg"
+            alt="" />
+        </div>
+        <div class="grid grid--1x2 gap">
+          <div class="portfolio__objectives">
+            <p class="our--portfolio__Objectives">Цели:</p>
+            <p id="Objective__description">
+              Увеличение количества обращений с помощью комплексных решений
+              интернет-маркетинга. Для выполнения поставленных задач была
+              выбрана стратегия продвижения сайта по позициям.
+            </p>
+            <ul>
+              <li>Увеличение количества визитов из поисковых систем</li>
+              <li>Улучшение видимости ресурса поисковыми системами</li>
+              <li>Увеличение количества обращений через сайт</li>
+            </ul>
+          </div>
+          <div>
+            <p class="our--portfolio__Objectives">Результат:</p>
+            <div class="result__flex">
+              <span id="result__percent">85%</span>
+              <p>
+                запросов обширного семантического ядра выведено в ТОП-10
+                поисковой системы Яндекс
+              </p>
+            </div>
+            <div class="result__flex">
+              <p id="orang">в <span id="result__percent">12</span> раз</p>
               <p>увеличился трафик на сайт</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     </section>
     <!-- increase-sales section -->
- <section class="increase-sales ">
+    <section class="increase-sales">
       <h1>Хотите увеличить продажи?</h1>
-      <p>Мы точно знаем, как привести на Ваш сайт клиентов! Оставьте заявку и получите
-индивидуальное предложение с привлекательной ценой.</p>
-<button class="btn-primary btn ">Получить коммерческое предложение</button>
-
-
+      <p>
+        Мы точно знаем, как привести на Ваш сайт клиентов! Оставьте заявку и
+        получите индивидуальное предложение с привлекательной ценой.
+      </p>
+      <button class="btn-primary btn">Получить коммерческое предложение</button>
     </section>
     <!-- about company section -->
- <section class="about-company container">
-      <div class="about-company__description " >
-
+    <section class="about-company container">
+      <div class="about-company__description">
         <h2 class="about-comapny__title">О компании</h2>
         <p>
           Наша веб-студия создаёт сайты с высокой конверсией, которые легко
-          вывести в ТОП поисковых систем. Наша команда полностью ведем Ваш проект
-          от и до, а также помогаем сотрудникам на стороне клиента. Вы можете
-          обратиться в веб-студию Дом сайтов для запуска своего онлайн бизнеса в
-          Интернете. Если у вас уже есть сайт — мы его оптимизируем, превратим в
-          полноценный и эффективный инструмент бизнеса.
+          вывести в ТОП поисковых систем. Наша команда полностью ведем Ваш
+          проект от и до, а также помогаем сотрудникам на стороне клиента. Вы
+          можете обратиться в веб-студию Дом сайтов для запуска своего онлайн
+          бизнеса в Интернете. Если у вас уже есть сайт — мы его оптимизируем,
+          превратим в полноценный и эффективный инструмент бизнеса.
         </p>
       </div>
-      <img class="about-company__badges" src="images/about-company__badges.png" alt="">
+      <img
+        class="about-company__badges"
+        src="images/about-company__badges.png"
+        alt="" />
     </section>
     <!-- our team section -->
     <section class="our-team container">
-    <h2>Наша команда</h2>
-    <div class="grid grid--1x3 grid--1x2 grid--1x1">
-      <div>
-        <img class="team__image" src="images/team1.png" alt="">
-        <p class="team__name">Sheila Shelton</p>
-        <p class="team__position">Должность  </p>
+      <h2>Наша команда</h2>
+      <div class="grid grid--1x3 grid--1x2 grid--1x1">
+        <div>
+          <img class="team__image" src="images/team1.png" alt="" />
+          <p class="team__name">Sheila Shelton</p>
+          <p class="team__position">Должность</p>
+        </div>
+        <div>
+          <img class="team__image" src="images/team2.png" alt="" />
+          <p class="team__name">Heather Hoffman</p>
+          <p class="team__position">Должность</p>
+        </div>
+        <div>
+          <img class="team__image" src="images/team3.png" alt="" />
+          <p class="team__name">Brittany Fuller</p>
+          <p class="team__position">Должность</p>
+        </div>
       </div>
-      <div>
-        <img class="team__image" src="images/team2.png" alt="">
-        <p class="team__name">Heather Hoffman</p>
-        <p class="team__position">Должность  </p>
-      </div>
-      <div>
-        <img class="team__image" src="images/team3.png" alt="">
-        <p class="team__name">Brittany Fuller</p>
-        <p class="team__position">Должность  </p>
-      </div>
-
-
-    </div>
-   </section>
+    </section>
 
     <section class="container">
-      <h2   >Мы всегда достигаем обещанного результата</h2>
+      <h2>Мы всегда достигаем обещанного результата</h2>
       <p>И вот почему:</p>
-      <div class="wrapper ">
+      <div class="wrapper">
         <div class="tabs">
           <ul class="tab-header tab-header__primary">
             <li data-id="vision">Высокая эффективность работы</li>
@@ -417,7 +577,7 @@
 
     <!-- nav__tabs section secondary -->
 
-    <div class="wrapper container ">
+    <div class="wrapper container">
       <div class="tabs">
         <ul class="tab-header tab-header__secondary">
           <li data-id="a">Заявка</li>
@@ -545,7 +705,10 @@
                 </ul>
               </div>
 
-              <img class="nav-tabs__photo" src="images/nav-tabs__photo-3.png" alt="" />
+              <img
+                class="nav-tabs__photo"
+                src="images/nav-tabs__photo-3.png"
+                alt="" />
             </div>
           </div>
           <div class="tab-inner tab-inner_s" id="d">
@@ -583,7 +746,10 @@
                 </ul>
               </div>
 
-              <img class="nav-tabs__photo" src="images/nav-tabs__photo-4.png" alt="" />
+              <img
+                class="nav-tabs__photo"
+                src="images/nav-tabs__photo-4.png"
+                alt="" />
             </div>
           </div>
           <div class="tab-inner tab-inner_s" id="e">
@@ -620,7 +786,10 @@
                   </li>
                 </ul>
               </div>
-              <img class="nav-tabs__photo" src="images/nav-tabs__photo-5.png" alt="" />
+              <img
+                class="nav-tabs__photo"
+                src="images/nav-tabs__photo-5.png"
+                alt="" />
             </div>
           </div>
         </div>
@@ -628,7 +797,7 @@
     </div>
 
     <!-- seals separtments section -->
-    <section class="sales-departments container  ">
+    <section class="sales-departments container">
       <img
         class="seles-separtments__img"
         src="images/sales-departments__photo.png"
